@@ -1,0 +1,6 @@
+{"warmup_calls_per_method":5,"median_ms":1.6164,"milliseconds":[1.6825,1.3089,1.407,1.9194,1.6164],"seed":32019,"method":"kruskal","validated":true,"n":1000,"m":5000}
+{"warmup_calls_per_method":5,"median_ms":1.3953,"milliseconds":[1.6313,1.4046,1.2702,1.3263,1.3953],"seed":32019,"method":"prim","validated":true,"n":1000,"m":5000}
+{"warmup_calls_per_method":5,"median_ms":26.7666,"milliseconds":[20.4344,30.4396,28.7041,26.7666,17.9927],"seed":41019,"method":"kruskal","validated":true,"n":10000,"m":50000}
+{"warmup_calls_per_method":5,"median_ms":21.1414,"milliseconds":[21.1414,17.9605,20.9279,21.5976,22.9376],"seed":41019,"method":"prim","validated":true,"n":10000,"m":50000}
+{"warmup_calls_per_method":5,"median_ms":109.4688,"milliseconds":[93.6608,95.8082,112.4568,119.8465,109.4688],"seed":131019,"method":"kruskal","validated":true,"n":100000,"m":250000}
+{"warmup_calls_per_method":5,"median_ms":153.3857,"milliseconds":[159.2147,154.014,138.215,153.3857,150.5911],"seed":131019,"method":"prim","validated":true,"n":100000,"m":250000}

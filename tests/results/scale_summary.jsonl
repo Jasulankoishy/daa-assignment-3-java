@@ -1,0 +1,8 @@
+{"case":0,"task":"dsu","n":100000,"rows":250000,"passed":true}
+{"case":1,"task":"kruskal","n":100000,"rows":250000,"passed":true}
+{"case":2,"task":"prim","n":100000,"rows":250000,"passed":true}
+{"case":3,"task":"scc","n":100000,"rows":250000,"passed":true}
+{"case":4,"task":"topo","n":100000,"rows":250000,"passed":true}
+{"case":5,"task":"dag","n":100000,"rows":250000,"passed":true}
+{"case":6,"task":"scc","n":100000,"rows":100000,"passed":true}
+{"case":7,"task":"dag","n":100000,"rows":99999,"passed":true}

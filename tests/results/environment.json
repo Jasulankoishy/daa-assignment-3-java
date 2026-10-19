@@ -1,0 +1,19 @@
+{
+  "recorded_utc": "2026-10-19T17:31:56.015097+00:00",
+  "os": "Windows-11-10.0.26300-SP0",
+  "cpu": "Intel64 Family 6 Model 141 Stepping 1, GenuineIntel",
+  "python": "3.13.0 (tags/v3.13.0:60403a5, Oct  7 2024, 09:38:07) [MSC v.1941 64 bit (AMD64)]",
+  "java": "openjdk version \"25.0.1\" 2025-10-21\nOpenJDK Runtime Environment (build 25.0.1+8-27)\nOpenJDK 64-Bit Server VM (build 25.0.1+8-27, mixed mode, sharing)",
+  "java_heap": "-Xmx384m",
+  "compile_target": "--release 17",
+  "timer": "System.nanoTime()",
+  "boundary": "Complete Algorithms.kruskal/prim invocation: input row conversion, algorithm data structures and result construction included; graph generation, JSON parsing, JVM startup, compilation, validation and printing excluded.",
+  "warmup": "5 calls per method per size after an untimed validation call",
+  "trials": "5 per method per size; first method alternates by trial",
+  "generator": "tests/Experiments.java graph(): java.util.Random(31019+n); negative chain, nonnegative random extra edges",
+  "limitations": "One JVM per benchmark run, shared desktop load, JIT and GC noise; structured graphs with a known optimum, not a survey of arbitrary graph families.",
+  "hardware": {
+    "cpu": "11th Gen Intel(R) Core(TM) i5-11400H @ 2.70GHz",
+    "ram_bytes": 16905158656
+  }
+}

@@ -1,0 +1,3 @@
+PASS 441 independently checked cases, repeated twice: 882 results
+PASS alternative valid answers and invalid witnesses: forest, SCC, topo, DAG
+PASS 8 scale cases: full limits, deep chain, giant SCC, unreachable cycle

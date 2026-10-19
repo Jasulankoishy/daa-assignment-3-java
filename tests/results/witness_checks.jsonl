@@ -1,0 +1,4 @@
+{"input":{"task":"kruskal","n":3,"edges":[[0,1,1],[1,2,1],[0,2,1]]},"accepted":[{"cost":2,"components":1,"edge_ids":[0,1]},{"cost":2,"components":1,"edge_ids":[1,2]}],"rejected":{"cost":2,"components":1,"edge_ids":[0,0]}}
+{"input":{"task":"scc","n":3,"edges":[[0,1],[1,0],[1,2]]},"accepted":[{"component":[0,0,1],"condensation":[[0,1]]},{"component":[7,7,9],"condensation":[[7,9]]}],"rejected":{"component":[0,0,1],"condensation":[]}}
+{"input":{"task":"topo","n":3,"edges":[[0,2],[1,2]]},"accepted":[{"acyclic":true,"order":[0,1,2]},{"acyclic":true,"order":[1,0,2]}],"rejected":{"acyclic":true,"order":[2,0,1]}}
+{"input":{"task":"dag","n":2,"source":0,"edges":[[0,1,-1],[0,1,-1]]},"accepted":[{"acyclic":true,"distance":[0,-1],"parent_edge":[-1,0]},{"acyclic":true,"distance":[0,-1],"parent_edge":[-1,1]}],"rejected":{"acyclic":true,"distance":[0,-1],"parent_edge":[-1,-1]}}
